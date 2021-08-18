@@ -1,6 +1,6 @@
 {
   "name": "ppd-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于NODE-SASS的多皮肤动态编译解决方案",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha --recursive",
-    "publish": "npm version patch && npm publish"
+    "publishVersion": "npm version patch && npm publish"
   },
   "homepage": "https://github.com/pp-design/ppd-theme.git",
   "repository": {
@@ -39,14 +39,14 @@
     "iconv-lite": "^0.6.3",
     "node-sass": "^6.0.1",
     "postcss": "^8.3.6",
+    "ppd-utils": "^1.1.2",
     "strip-css-comments": "^4.1.0",
     "uuid": "^8.3.2",
     "watch": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^9.0.3",
-    "ppd-utils": "^1.1.2"
+    "mocha": "^9.0.3"
   },
   "browserslist": [
     "> 1%",
