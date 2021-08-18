@@ -7,12 +7,13 @@
     "ppd-theme": "./bin/theme.bin.js"
   },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "publish": "npm version patch && npm publish"
   },
-  "homepage": "http://git.code.oa.com/wegame_ui_dev_team/ppd-theme",
+  "homepage": "https://github.com/pp-design/ppd-theme.git",
   "repository": {
     "type": "git",
-    "url": "http://git.code.oa.com/wegame_ui_dev_team/ppd-theme.git"
+    "url": "https://github.com/pp-design/ppd-theme.git.git"
   },
   "keywords": [
     "node-sass",
