@@ -1,6 +1,6 @@
 {
   "name": "ppd-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于NODE-SASS的多皮肤动态编译解决方案",
   "main": "index.js",
   "bin": {
