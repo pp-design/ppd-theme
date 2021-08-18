@@ -1,0 +1,54 @@
+{
+  "name": "ppd-theme",
+  "version": "1.0.0",
+  "description": "基于NODE-SASS的多皮肤动态编译解决方案",
+  "main": "index.js",
+  "bin": {
+    "ppd-theme": "./bin/theme.bin.js"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "homepage": "http://git.code.oa.com/wegame_ui_dev_team/ppd-theme",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/wegame_ui_dev_team/ppd-theme.git"
+  },
+  "keywords": [
+    "node-sass",
+    "sass",
+    "theme",
+    "variable",
+    "dynamic compilation",
+    "ppd"
+  ],
+  "bugs": {
+    "url": "https://git.code.oa.com/wegame_ui_dev_team/ppd-theme/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "grabbychen",
+    "email": "grabbychen@tencent.com"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "chokidar": "^3.5.2",
+    "commander": "^8.1.0",
+    "cosmiconfig": "^7.0.0",
+    "iconv-lite": "^0.6.3",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.6",
+    "strip-css-comments": "^4.1.0",
+    "uuid": "^8.3.2",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ppd-utils": "^1.1.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
